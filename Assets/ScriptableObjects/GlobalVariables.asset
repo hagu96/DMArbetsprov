@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86e8d2cbe8ea8ac44a3d3a6ba8e330c1, type: 3}
+  m_Name: GlobalVariables
+  m_EditorClassIdentifier: 
+  mouseXRotationSpeed: 5
+  mouseYRotationSpeed: 5
+  playerMoveSpeed: 8
+  cameraYOffset: 1
+  singleBulletDamage: 10
+  shootCooldown: 0.15
+  jumpMultiplier: 7
+  agentMaxHealth: 10
+  agentMoveSpeed: 5
+  ragdollForceMult: 15000
+  spawnedAgents: 4
+  powerupAddedAmmoAmount: 30
+  powerupMoveSpeed: 12
+  powerupMoveSpeedDur: 5
+  explodingBulletDamage: 10
+  explodingBulletDuration: 10
+  explodingBulletRadius: 3
+  spawnBorders: {x: 30, y: 30}
+  muzzleFlashPrefab: {fileID: 1782395880954752, guid: e802c9c5b472d2345a808aca4bc81014,
+    type: 3}
+  explodingBulletEffectPrefab: {fileID: 1223473976820081655, guid: 86f7e6a8382afa546af1e50aeb9575b1,
+    type: 3}
+  gunShot1: {fileID: 8300000, guid: 1b766da7cc2d648aa84e36cb5fe8abcb, type: 3}
+  gunShot2: {fileID: 8300000, guid: 65201ddabb4144f6a8fb9480120b7656, type: 3}
